@@ -1194,7 +1194,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
                 await query.edit_message_text(
                     text=f"❌ *Для активации промокода добавьте {REQUIRED_NAME} в ник!*\n\n"
                          f"Добавьте в свой ник это, чтобы продолжить.\n"
-                         f"*Пример: Venom @Logunovv_delivery_bot.*\n\n"
+                         f"*Пример: Venom @MefezyPIZZA_bot.*\n\n"
                          f"После изменения попробуйте ещё раз.",
                     reply_markup=InlineKeyboardMarkup(keyboard),
                     parse_mode="Markdown"
